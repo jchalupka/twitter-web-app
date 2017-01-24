@@ -1,0 +1,44 @@
+.content {
+	overflow: auto;
+	height: 400px;
+}
+
+.content li{
+	position: relative;
+	width: 400px;
+	height: 150px;
+	background: #0084b4;
+	display: inline-block;
+	margin: 0 2% 2% 0;
+	border-radius: 2px;
+	color: #fafafa;
+}
+
+.content img{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: 90px;
+	border: 2px solid #cdcdcd;
+}
+
+.content .name{
+	top: 25px;
+	height: 25px;
+	font-weight: bold;
+}
+.content .message{
+	top: 50px;
+	width: 210px;	
+	height: 80px;
+	text-align: left;
+}
+.content .name, .content .message{
+	position: absolute;
+	left: 150px;
+	overflow: hidden;	
+}
+
+#map_canvas {
+    height: 50%;
+}
